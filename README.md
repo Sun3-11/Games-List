@@ -1,7 +1,3 @@
-## Figma URL
-
-[Menu](https://www.figma.com/file/PwlnSJXCuo4qD2o6EJiuj9/Menu?node-id=0%3A1&t=oaKVwYVqc9Oon2Ts-1)
-
 ## Steps
 
 #### Title Component
@@ -91,6 +87,6 @@ console.log(myArray); // [1, 3]
 ```js
 const tempCategories = menu.map((item) => item.category);
 const tempSet = new Set(tempCategories);
-const tempItems = ['all', ...tempSet];
+const tempItems = ["all", ...tempSet];
 console.log(tempItems);
 ```
